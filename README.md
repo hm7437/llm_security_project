@@ -1,6 +1,7 @@
 LLM Security Project 
 
 WEEK 1. 
+
 What this is
 A Python script that connects to Groq's API and runs Llama 3.3 70B.
 Interactive — you type a prompt, get a response, everything gets logged to a JSON file.
@@ -19,7 +20,7 @@ What I ran into
 
 How to run it
 1. Get a free API key at console.groq.com
-2. Set it: `export GROQ_API_KEY="your_key_here"`
+2. Set it: `GROQ_API_KEY="your_key_here"`
 3. Run: `python3 llm_logger.py`
 4. Type your prompt, get a response, type `exit` to quit
 5. Check `log.json` for the full conversation log
