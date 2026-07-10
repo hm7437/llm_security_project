@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from groq import Groq
 
-client = Groq(api_key="your api key")
+client = Groq(api_key="your_api_key_here")
 
 def ask_and_log(prompt):
     response = client.chat.completions.create(
